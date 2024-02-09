@@ -11,6 +11,8 @@ else
 fi
 # Copy zip here
 gh auth login
+git config --global user.name "igniteinm"
+git config --global user.email "igniteinm443@outlook.com"
 filename=$(ls *.zip)
 
 # Create a tag and release using the filename (without .zip extension)
